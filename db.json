@@ -1,17 +1,31 @@
 {
-    "data":{
-        "id":"20211103FF0000000001FFFF",
-        "longitude":"113.91600013241814",
-        "latitude":"22.548595575081696",
-        "temperature":"26.5",
-        "tagList":[
-            {
-                "direction":"0",
-                "epc":"E280689000000003286AA27C",
-                "rssi":"80"
-            }
-        ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
     },
-    "method":"device_report_probe_data",
-    "sn":"3c71ba87"
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
